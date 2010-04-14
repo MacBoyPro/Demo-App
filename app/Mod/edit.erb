@@ -1,0 +1,33 @@
+<div id="pageTitle">
+	<h1>Edit <%=@mod.title%></h1>
+</div>
+
+<div id="toolbar">
+  <div id="row">
+    <div id="leftItem" class="backButton"><%=link_to "Cancel", :action => :show, :id => @mod.object%></div>
+    <div id="rightItem" class="regularButton"><%=link_to "Delete", :action => :delete, :id => @mod.object%></div>
+  </div>
+</div>
+
+<div id="content">
+    <form title="Edit Mod"
+          id="mod_edit_form"
+          method="POST"
+          action="<%=url_for(:action => :update)%>">
+            <input type="hidden" name="id" value="<%=@mod.object%>"/>
+            <ul>
+                
+                <li>
+                    <label for="mod[title]" class="fieldLabel">Title</label>
+                    <input type="text" name="mod[title]" value="<%=@mod.title%>" <%= placeholder( "Title" )%> />
+                </li>
+                
+                <li>
+                    <label for="mod[description]" class="fieldLabel">Description</label>
+                    <input type="text" name="mod[description]" value="<%=@mod.description%>" <%= placeholder( "Description" )%> />
+                </li>
+                
+            </ul>
+            <button class="standardButton" type="submit">Update</button>
+    </form>
+</div>

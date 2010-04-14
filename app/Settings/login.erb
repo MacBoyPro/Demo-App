@@ -1,0 +1,31 @@
+<div id="pageTitle">
+  <h1>Login</h1>
+</div>
+
+<div id="toolbar"></div>
+
+<div id="content">
+    <form title="Login to Rhodes"
+       method="POST"
+       action="<%=url_for(:action => 'do_login')%>">
+
+        <% if @msg %>
+            <p style="color:#ff0000"><%= @msg %></p>
+        <% end %>
+        <ul>
+            <li>
+                <label for="login" class="fieldLabel">Login</label>
+                <input type="text" name="login" <%= placeholder( "Login" )%> />
+            </li>
+
+            <li>
+                <label for="password" class="fieldLabel">Password</label>
+                <input type="password" name="password" <%= placeholder( "Password" )%> />
+            </li>
+        </ul>
+        <button class="standardButton" type="submit">Login</button>
+        <div class="standardButton">
+            <a href="<%=url_for(:controller => :Settings, :action => :index)%>" target="_self">Cancel</a>
+        </div>
+    </form>
+</div>

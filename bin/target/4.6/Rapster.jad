@@ -1,0 +1,88 @@
+RIM-COD-SHA1-9: 84 a8 b8 80 4d 81 4e 84 20 b0 67 ba 4c 88 ef 9e eb 7c a7 92
+RIM-COD-SHA1-8: c6 52 62 61 1a 64 d0 f6 3e fe 37 b1 77 38 38 d4 c8 07 81 86
+RIM-COD-SHA1-7: f5 27 f9 ba 70 8a 46 68 6f 26 93 77 b4 b0 61 fd 40 85 81 1b
+RIM-COD-SHA1-6: d9 69 ab de d1 05 0c 28 14 07 59 cf 9d ce 6e 8a bc 06 26 b7
+RIM-COD-SHA1-5: c6 ad c6 cf 00 e4 a3 01 a0 17 af f2 42 64 c9 d4 33 e4 69 96
+RIM-COD-SHA1-4: db 7c 6e eb e9 5e d7 b4 2e c6 1b fb 39 2a 6b 09 a9 c2 d0 92
+RIM-COD-SHA1-3: 02 4e 66 d8 36 b3 66 a2 52 cd 0c 0d 4d 3e e0 b9 a6 58 30 48
+RIM-COD-Size-24: 22468
+RIM-COD-SHA1-2: 61 ea ea 29 ba 48 55 a8 a9 83 a0 6b d2 9c 3d cb c2 ef eb af
+RIM-COD-Size-23: 85752
+RIM-COD-SHA1-1: d1 d6 c3 58 1a f7 d1 f7 f4 86 79 82 6e a2 0c f3 d3 68 0d d0
+RIM-COD-Size-22: 68576
+RIM-COD-Size-21: 56544
+RIM-COD-Size-20: 53552
+RIM-COD-URL-19: Rapster-19.cod
+RIM-COD-URL-18: Rapster-18.cod
+RIM-COD-URL-17: Rapster-17.cod
+RIM-COD-URL-16: Rapster-16.cod
+RIM-COD-URL-15: Rapster-15.cod
+RIM-COD-URL-14: Rapster-14.cod
+RIM-COD-URL-13: Rapster-13.cod
+RIM-COD-URL-12: Rapster-12.cod
+RIM-COD-Size: 93424
+RIM-COD-URL-11: Rapster-11.cod
+RIM-COD-URL-10: Rapster-10.cod
+MIDlet-Vendor: rhomobile
+Manifest-Version: 1.0
+RIM-MIDlet-Flags-1: 1
+RIM-COD-Size-19: 58380
+RIM-COD-Size-18: 55580
+RIM-COD-Size-17: 85576
+RIM-COD-Size-16: 84524
+RIM-COD-Size-15: 93676
+RIM-COD-Size-14: 83184
+RIM-COD-Size-13: 91200
+RIM-COD-Size-12: 82904
+RIM-COD-Size-11: 76392
+RIM-COD-Size-10: 80052
+MIDlet-Version: 1.0
+MicroEdition-Profile: MIDP-2.0
+RIM-COD-SHA1-24: 12 7b 93 89 3e a6 de 30 da d6 a4 fd 12 4d 68 5c 3c 2f 88 0d
+RIM-COD-SHA1-23: 35 39 b5 ba 96 67 e7 d9 96 41 fe db 45 9f 8d ea 34 45 08 69
+RIM-COD-SHA1-22: d9 ea c4 c2 df 6f fa 65 17 7f c6 b9 7b c6 6a 64 0e da c3 7d
+RIM-COD-SHA1-21: b5 c7 80 b9 72 1f ed 94 1a 91 9c 23 e9 44 93 cf 64 bf c7 52
+RIM-COD-SHA1-20: 08 94 8b 9b 29 79 5d 49 0c 9f 32 ad b7 9b 66 c8 10 b1 94 7c
+RIM-COD-URL: Rapster.cod
+RIM-COD-Creation-Time: 1271278631
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Jar-URL: Rapster.jar
+RIM-COD-SHA1-19: 0b 54 6c ab 1b 1a 08 55 34 d0 b4 83 48 b5 0d 77 1a 37 35 6e
+RIM-COD-SHA1-18: 6f 79 3b 8d 58 00 67 3b 19 3f 31 31 72 fc df 6c 38 f1 6b 3e
+RIM-COD-SHA1-17: 81 9a 85 bf 9e 72 67 13 18 88 7f 40 e4 05 38 ca bc 8a be 22
+RIM-COD-SHA1-16: c4 b7 dd 16 4a 37 9d 76 b8 1a 4e 82 19 41 7a 62 49 2e c1 00
+RIM-COD-SHA1-15: 93 66 2a 84 5d 2b 8d 83 ef 0a d0 ef 02 e5 2a d0 4d 26 67 f0
+RIM-COD-SHA1-14: 12 10 0f 13 cd 01 cb b1 75 b0 fb 5b 0b 2e d7 66 90 0c aa 5b
+RIM-COD-SHA1-13: 03 96 7f d6 08 9e d8 18 50 27 3d d0 f3 9a 15 15 7a 91 7a 5e
+RIM-COD-SHA1-12: 67 d0 e8 4b 19 29 e7 87 ac 76 6b d8 aa e6 4f 7b ae c8 5e 31
+RIM-COD-Size-9: 86108
+RIM-COD-SHA1-11: 15 19 d3 ac 15 f2 78 78 15 2a 02 86 8b e9 78 d5 19 7f ee ac
+RIM-COD-Size-8: 68728
+RIM-COD-SHA1-10: 1d 47 96 03 54 44 46 d2 78 5e 83 26 bd f9 15 7c b0 80 0d d4
+RIM-COD-Size-7: 67208
+RIM-COD-Size-6: 68552
+RIM-COD-Size-5: 67780
+RIM-COD-Size-4: 72620
+RIM-COD-Size-3: 99928
+RIM-COD-Size-2: 67628
+RIM-COD-Size-1: 97704
+MIDlet-1: Rapster,resources/icon.png,
+MIDlet-Name: Rapster
+RIM-COD-SHA1: 42 39 7a a8 35 37 cd 84 d1 92 a8 89 5b c9 e3 77 c2 c9 0e b6
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_os,net_rim_locationapi,net_rim_bbapi_phone,net_rim_xml,net_rim_xml_org,net_rim_pdap,net_rim_bb_browser_field_api,net_rim_bbapi_invoke
+MIDlet-Jar-Size: 1247266
+RIM-COD-URL-9: Rapster-9.cod
+RIM-COD-URL-8: Rapster-8.cod
+RIM-COD-URL-7: Rapster-7.cod
+RIM-COD-URL-6: Rapster-6.cod
+RIM-COD-URL-5: Rapster-5.cod
+RIM-COD-URL-4: Rapster-4.cod
+RIM-COD-URL-3: Rapster-3.cod
+RIM-COD-URL-2: Rapster-2.cod
+RIM-COD-URL-1: Rapster-1.cod
+RIM-COD-Module-Name: Rapster
+RIM-COD-URL-24: Rapster-24.cod
+RIM-COD-URL-23: Rapster-23.cod
+RIM-COD-URL-22: Rapster-22.cod
+RIM-COD-URL-21: Rapster-21.cod
+RIM-COD-URL-20: Rapster-20.cod

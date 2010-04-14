@@ -1,0 +1,32 @@
+<div id="pageTitle">
+	<h1>New <%=@mod.title%></h1>
+</div>
+
+<div id="toolbar">
+  <div id="row">
+      <div id="leftItem" class="backButton"><%=link_to "Cancel", :action => :index%></div>
+  </div>
+</div>
+
+<div id="content">
+    <form title="New Mod"
+          id="mod_edit_form"
+          method="POST"
+          action="<%=url_for(:action => :create)%>">
+            <input type="hidden" name="id" value="<%=@mod.object%>"/>
+            <ul>
+                
+                <li>
+                    <label for="mod[title]" class="fieldLabel">Title</label>
+                    <input type="text" name="mod[title]" <%= placeholder( "Title" )%> />
+                </li>
+                
+                <li>
+                    <label for="mod[description]" class="fieldLabel">Description</label>
+                    <input type="text" name="mod[description]" <%= placeholder( "Description" )%> />
+                </li>
+                
+            </ul>
+            <button class="standardButton" type="submit">Create</button>
+    </form>
+</div>

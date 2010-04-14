@@ -1,0 +1,26 @@
+<div id="pageTitle">
+	<h1><%=@mod.title%></h1>
+</div>
+
+<div id="toolbar">
+    <div id="row">
+      <div id="leftItem" class="backButton"><%=link_to "Back", :action => :index%></div>
+      <div id="rightItem" class="regularButton"><%=link_to "Edit", :action => :edit, :id => @mod.object%></div>
+    </div>
+</div>
+
+<div id="content">
+    <ul>
+        
+        <li>
+            <span class="title">Title</span>
+            <span class="gridItem"><%=@mod.title%></span>
+        </li>
+        
+        <li>
+            <span class="title">Description</span>
+            <span class="gridItem"><%=@mod.description%></span>
+        </li>
+        
+    </ul>
+</div>

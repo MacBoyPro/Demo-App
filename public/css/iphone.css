@@ -1,0 +1,366 @@
+/* Common css */
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+/* header */
+
+div#pageTitle h1 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    line-height: 50px;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+/* toolbar */
+
+#toolbar {
+    width: 100%;
+    height: 50px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #aebbcb),color-stop(0.5, #8094ae), color-stop(1.0, #6e84a2));
+}
+
+div#row div {
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+}
+
+div#row div#leftItem {
+    top: 10px;
+    left: 10px;
+    width: 50px;
+}
+
+div#row div#centerItem {
+    bottom: 20px;
+		width:100%;
+    margin-left: 10px;
+    height: 30px;
+}
+
+div#row div#rightItem {
+    top: 10px;
+    right: 10px;
+    width: 50px;
+}
+
+div#toolbar a {
+    text-decoration: none;
+    color:white;
+    display: block;
+    line-height: 30px;
+}
+
+div#row .backButton {
+    -webkit-border-bottom-left-radius: 16px 16px;
+    -webkit-border-bottom-right-radius: 6px 6px;
+    -webkit-border-image: url(/public/images/backButton.png) 0 5 0 13 stretch stretch;
+    -webkit-border-top-left-radius: 16px 16px;
+    -webkit-border-top-right-radius: 6px 6px;
+    border-width: 0 5px 0 13px;
+    width: auto;
+    font-size: .9em;
+    z-index: 3;
+}
+
+div#row .deleteButton, .regularButton, .blueButton {
+   -webkit-border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    width: auto;
+    height: 30px;
+    font-size: .9em;
+    border-left: #5e7088 1px solid;
+    border-right: #5e7088 1px solid;
+    border-top: #34404e 1px solid;
+    border-bottom: #34404e 1px solid;
+}
+
+div#row .deleteButton {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #aebbcb),color-stop(0.5, #8094ae), color-stop(1.0, #6e84a2));
+}
+
+div#row .regularButton {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #92a4bc),color-stop(0.5, #476997), color-stop(1.0, #4e6c92));
+}
+
+div#row .blueButton {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #6f96e9),color-stop(0.5, #3366cc), color-stop(1.0, #3366cc));
+    border: #1a49b3 1px solid;
+}
+
+div#content {
+    background: url(/public/images/pinstripes.png);
+		min-height:480px;
+}
+
+div#content form button.createButton {
+    position: absolute;
+    bottom: 20px;
+    height: 35px;
+}
+
+div#content .standardButton {
+    -webkit-appearance: none;
+    -webkit-border-radius: 8px;
+    background: white;
+    color: #436395;
+    font-size: 15px;
+    font-weight: bold;
+		width:100%;
+    height: 40px;
+    border: 1px solid black;
+    margin-top:10px;
+}
+
+div#content .standardButton a {
+    display: block;
+    text-decoration:none;
+    width: 100%;
+    color: #436395;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
+
+
+/*  text styles  */
+
+.darkBlue {
+	color:#7287A4;
+}
+div#content .groupTitle{
+	margin: 8px;
+	color:#565E70;
+}
+
+
+
+
+
+/* lists */
+
+
+div#content ul {
+    border-top: 1px solid #848284;
+    background-color: white;
+    height: 100%;
+		margin-bottom:50px;
+}
+
+div#content ul li {
+    width: 100%;
+    height: 75px;
+    list-style-type: none;
+    border-bottom: 1px solid #848284;
+}
+
+div#content ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+div#content ul li a:hover {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(5, 140, 245)), to(rgb(1, 95, 230)));
+}
+
+div#content ul li span{
+	line-height: 75px;
+}
+
+div#content ul li span.title {
+    margin-left: 30px;
+    font-size: 20px;
+		font-weight: bold;
+		float: left;
+    width:auto;
+
+}
+
+div#content ul li a span.disclosure_indicator {
+    background: url('/public/images/iphone/disclosure.png') no-repeat center right;
+    height: 100%;
+    width: 35px;
+    float: right;
+    margin-right: 10px;
+}
+
+div#content ul li a span.detail_disclosure {
+    background: url('/public/images/iphone/disclosure_detail.png') no-repeat center right;
+    height: 100%;
+    width: 35px;
+    float: right;
+    margin-right: 10px;
+}
+
+div#content ul li a img {
+    float: left;
+    height: 100%;
+    max-width: 100px;
+}
+
+div#content ul li span.gridItem {
+    float: right;
+    margin-right: 5px;
+    text-align: left;
+    width: 145px;
+}
+
+
+/* Forms */
+
+div#content form {
+  padding: 5px 0 75px 0;
+	border: none;
+	width:300px;
+	margin:0 auto;
+	font-size: medium;
+}
+
+div#content form ul {
+    -webkit-border-radius: 8px;
+    background-color: white;
+    border: 1px solid #878787;
+    display: block;
+    font-size: 16px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0 auto 15px auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0;
+}
+
+div#content form ul li {
+    display: block;
+    height: auto;
+		min-height:40px;
+		line-height:40px;
+    list-style-type: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-bottom: 1px solid #848284;
+}
+
+div#content form ul li:last-child {
+    border:none;
+}
+
+div#content form ul li label.fieldLabel {
+	display:none;
+}
+
+div#content form input, 
+div#content form select{
+	height:40px;
+	line-height:40px;
+	font-size: medium;
+	font-weight: bold;
+}
+
+label{
+	margin-left:10px;
+	font-weight:bold;
+}
+
+input {
+	-webkit-appearance: none;
+	border:0;
+	height:40px;
+	width: 300px;
+}
+
+div#content form input[type="checkbox"] {
+    background: url(/public/images/iphone/switch.png) no-repeat;
+    float: right;
+    margin: 10px 15px;
+    height: 27px;
+    width: 94px;
+}
+div#content form input[type="checkbox"]:checked {
+    background-position-y: -27px;
+}
+
+div#content form input[type="radio"] {
+    width:290px;
+		position: absolute;
+		margin-right:12px;
+		padding:15px;
+}
+div#content form input[type="radio"]:checked {
+ background: url(/public/images/iphone/radiobutton.png) no-repeat;
+ background-position-x: 100%;
+ background-position-y: 50%;
+}
+
+div#content form input[type="text"], 
+div#content form input[type="password"] {
+    width: 100%;
+    background: transparent;
+}
+
+div#content form select {
+  	background: url('/public/images/iphone/select.png') no-repeat right;
+    border: 0px;
+		width:100%;
+}
+
+div#content form textarea {
+  	-webkit-appearance: none;
+    border: none;
+		font-size: medium;
+		width:280px;
+		line-height:20px;
+}
+
+
+/* Settings */
+
+div#content ul#settings {
+    padding: 0;
+    margin: 0;
+}
+
+div#content ul#settings li.alertMessage{
+    text-align: center;
+}
+
+div#content ul#settings li.alertMessage span.message{
+		color: red;
+}
+
+div#content ul#settings li span.clientID{
+	margin-left:4px;
+	font-size:10px;
+}
+
+div#content div#reset {
+    height: 100%;
+		width:300px;
+    padding:10px;
+}
+
+div#content div#reset h4 {
+    width: 100%;
+		padding:0;
+		margin:0;
+		margin: 0 8px;
+		color:#565E70;
+}
